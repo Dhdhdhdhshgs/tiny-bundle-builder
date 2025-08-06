@@ -57,6 +57,7 @@ export default {
 					panel: 'hsl(var(--editor-panel))',
 					border: 'hsl(var(--editor-border))',
 					'tab-active': 'hsl(var(--editor-tab-active))',
+					'tab-accent': 'hsl(var(--editor-tab-accent))',
 					'tab-inactive': 'hsl(var(--editor-tab-inactive))',
 					text: 'hsl(var(--editor-text))',
 					'text-dim': 'hsl(var(--editor-text-dim))'

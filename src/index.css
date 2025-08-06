@@ -36,14 +36,15 @@ All colors MUST be HSL.
     --input: 220 13% 15%;
     --ring: 25 95% 53%;
 
-    --radius: 0.25rem;
+    --radius: 0.5rem;
 
     /* Code Editor Theme */
     --editor-bg: 220 13% 9%;
     --editor-panel: 220 13% 11%;
     --editor-border: 220 13% 18%;
-    --editor-tab-active: 25 95% 53%;
-    --editor-tab-inactive: 220 13% 15%;
+    --editor-tab-active: 220 13% 13%;
+    --editor-tab-accent: 25 95% 53%;
+    --editor-tab-inactive: 220 13% 11%;
     --editor-text: 220 9% 92%;
     --editor-text-dim: 220 9% 46%;
 
@@ -119,5 +120,7 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 400;
   }
 }
