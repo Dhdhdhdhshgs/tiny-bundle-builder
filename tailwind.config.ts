@@ -52,6 +52,24 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				editor: {
+					bg: 'hsl(var(--editor-bg))',
+					panel: 'hsl(var(--editor-panel))',
+					border: 'hsl(var(--editor-border))',
+					'tab-active': 'hsl(var(--editor-tab-active))',
+					'tab-inactive': 'hsl(var(--editor-tab-inactive))',
+					text: 'hsl(var(--editor-text))',
+					'text-dim': 'hsl(var(--editor-text-dim))'
+				},
+				console: {
+					bg: 'hsl(var(--console-bg))',
+					border: 'hsl(var(--console-border))'
+				},
+				control: {
+					bg: 'hsl(var(--control-bg))',
+					hover: 'hsl(var(--control-hover))',
+					active: 'hsl(var(--control-active))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

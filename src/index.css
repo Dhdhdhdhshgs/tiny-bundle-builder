@@ -8,35 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 220 13% 9%;
+    --foreground: 220 9% 92%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 220 13% 11%;
+    --card-foreground: 220 9% 92%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 220 13% 11%;
+    --popover-foreground: 220 9% 92%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 25 95% 53%;
+    --primary-foreground: 220 13% 9%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 13% 15%;
+    --secondary-foreground: 220 9% 92%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 220 13% 15%;
+    --muted-foreground: 220 9% 46%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 25 95% 53%;
+    --accent-foreground: 220 13% 9%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 9% 92%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 220 13% 18%;
+    --input: 220 13% 15%;
+    --ring: 25 95% 53%;
 
-    --radius: 0.5rem;
+    --radius: 0.25rem;
+
+    /* Code Editor Theme */
+    --editor-bg: 220 13% 9%;
+    --editor-panel: 220 13% 11%;
+    --editor-border: 220 13% 18%;
+    --editor-tab-active: 25 95% 53%;
+    --editor-tab-inactive: 220 13% 15%;
+    --editor-text: 220 9% 92%;
+    --editor-text-dim: 220 9% 46%;
+
+    /* Console specific */
+    --console-bg: 220 13% 6%;
+    --console-border: 220 13% 18%;
+
+    /* Control buttons */
+    --control-bg: 220 13% 15%;
+    --control-hover: 220 13% 20%;
+    --control-active: 25 95% 53%;
 
     --sidebar-background: 0 0% 98%;
 
